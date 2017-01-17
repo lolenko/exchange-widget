@@ -1,0 +1,52 @@
+.currency-input {
+    color: #fff;
+    font-size: 11px;
+}
+
+.currency-input__value {
+    background: rgba(255,255,255,.1);
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    font-weight: inherit;
+    padding: 0;
+    display: block;
+    min-width: 0;
+}
+
+.currency-input__row {
+    display: flex;
+    align-items: center;
+}
+
+.currency-input__select,
+.currency-input__amount {
+    flex-grow: 1;
+}
+
+.currency-input__value,
+.currency-input__rate {
+    flex-grow: 5;
+    text-align: right;
+}
+
+.currency-input__select,
+.currency-input__value,
+.currency-input__select {
+    font-size: 25px;
+}
+
+.currency-input_overflow,
+.currency-input_overflow .currency-input__value {
+    color: #ff0000;
+    transition: color .3s;
+}
+
+.currency-input__select {
+    background: rgba(255,255,255,0);
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    font-weight: inherit;
+    padding: 0;
+}

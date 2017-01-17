@@ -1,0 +1,32 @@
+.exchange-widget {
+    background: #075699;
+    width: 40%;
+    min-width: 200px;
+    max-width: 500px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    position: relative
+}
+
+.exchange-widget__input-box,
+.exchange-widget__output-box {
+    padding: 20px;
+}
+
+.exchange-widget__input-box {
+    background: rgba(255,255,255,.2);
+    position: relative;
+}
+
+.exchange-widget__input-box::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 0;
+    margin: 0 0 0 -10px;
+    border: solid;
+    border-width: 10px 10px 0;
+    border-color: rgba(255,255,255,.2) transparent transparent;
+}
